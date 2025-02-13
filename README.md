@@ -1,1 +1,1 @@
-"# WashSaleCalculator" 
+"# WashsaleCalc" 
