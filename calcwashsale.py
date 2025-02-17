@@ -1,19 +1,18 @@
 
-import streamlit as st
+import streamlit as st # type: ignore
 from  Hdf5Key import Hdf5key
-import h5py
-import pandas as pd
+import h5py # type: ignore
+import pandas as pd # type: ignore
 from PrepareData import PrepareData
 import Calculate as rl
-import numpy as np
-import duckdb as db
+import numpy as np # type: ignore
+import duckdb as db # type: ignore
 import HDFOperation as hdf
-import streamlit as st
+import streamlit as st # type: ignore
 from mapping import Mapping
 import json
 
 import time
-import dill 
 
 
 
