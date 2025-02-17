@@ -1,6 +1,6 @@
 import hashlib
-import duckdb as db
-import pandas as pd
+import duckdb as db # type: ignore
+import pandas as pd # type: ignore
 import random
 
 class Login(object):
