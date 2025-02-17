@@ -74,7 +74,7 @@ def _split_lot_R(num_shares, lot, lots,  type_of_lot,
             otherLot.basis = 0.00
             lots.remove(otherLot)
 
-print(pickle.loads(pickle.dumps(_split_lot_R, protocol= 4)))
+
 
 def earliest_buy_lot(loss_lot, lots: lots_lib.Transactions):
     """Finds the best buy lot for a sell lot.
