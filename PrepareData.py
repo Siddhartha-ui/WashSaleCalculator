@@ -1,8 +1,8 @@
 
-import streamlit as st
-import pandas as pd
-import duckdb as db
-import numpy as np
+import streamlit as st # type: ignore
+import pandas as pd # type: ignore
+import duckdb as db # type: ignore
+import numpy as np # type: ignore
 
 
 class PrepareData(object):
