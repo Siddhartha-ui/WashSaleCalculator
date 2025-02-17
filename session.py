@@ -1,5 +1,5 @@
-import streamlit as st
-import pandas as pd
+import streamlit as st # type: ignore
+import pandas as pd # type: ignore
 
 class Session(object) :
     def __init__(self) -> None:
