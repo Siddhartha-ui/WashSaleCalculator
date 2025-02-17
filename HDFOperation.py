@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # type: ignore
 
 def WriteToHDF(FileNm : str ,df : pd.DataFrame, sKey : str) -> None :
     
