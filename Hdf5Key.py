@@ -2,7 +2,7 @@
 
 """ This class will take care of preparing and returing HDF dataset keys"""
 
-import streamlit as st
+import streamlit as st # type: ignore
 
 class Hdf5key(object):
 
