@@ -1,10 +1,10 @@
-import streamlit as st
-import pandas as pd
-import duckdb as db
-import numpy as np
-import h5py 
-import tables as pys
-import HDFOperation as hd
+import streamlit as st # type: ignore
+import pandas as pd # type: ignore
+import duckdb as db # type: ignore
+import numpy as np # type: ignore
+import h5py  # type: ignore
+import tables as pys # type: ignore
+import HDFOperation as hd # type: ignore
 from Hdf5Key  import Hdf5key
 from mapping import Mapping
 import json
