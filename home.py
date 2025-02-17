@@ -1,8 +1,8 @@
-import streamlit as st
-from streamlit_option_menu import option_menu
+import streamlit as st # type: ignore
+from streamlit_option_menu import option_menu # type: ignore
 from upload import Upload
 from login import Login
-import pandas as pd
+import pandas as pd # type: ignore
 from calcwashsale import CalcwashSale , WashsaleReport
 from session import Session
 
