@@ -5,99 +5,59 @@
             "Trx Num": "Trx Num",
             "Fund" : "Fund",
             "Symbol": "Symbol",
-            "Symbol Description": "Symbol Description",
-            "Deal Type" : "Deal Type",
             "Curr" : "Curr",
             "Trade Date" : "Trade Date" ,
-            "Settle Date" : "Settle Date",
-            "Term" : "Term",
-            "Exec. Broker" : "Exec. Broker",
-            "Pct Assets" : "Pct Assets",
             "Quantity" : "Quantity" ,
             "Unit Cost" : "Unit Cost",
-            "Total Cost" : "Total Cost",
-            "Market Price" : "Market Price",
-            "Market Value" : "Market Value",
-            "Unrealized Gain/Loss" : "Unrealized Gain/Loss",
-            "Pct G/L" : "Pct G/L",
-            "Div/Int/Deal Accrual" : "Div/Int/Deal Accrual"
-
+            "Total Cost" : "Total Cost"
+            
         },
     
    "source_transaction_details" : 
    
     {
-        "Status" : "Status",
         "Id" : "Id",
         "Symbol" : "Symbol",
-        "Deal" : "Deal",
         "Transaction Type" : "Transaction Type",
-        "Event Type" : "Event Type",
         "Quantity" : "Quantity",
         "Price" : "Price",
         "Trade Date" : "Trade Date" ,
-        "Settlement Date" : "Settlement Date",
         "Fund" : "Fund",
-        "Broker Account" : "Broker Account",
-        "Strategy" : "Strategy",
-        "Executing Broker" : "Executing Broker",
         "Commission" : "Commission",
         "Proceeds Currency" : "Proceeds Currency",
         "Proceeds FX Rate" : "Proceeds FX Rate",
-        "Interest" : "Interest",
-        "NetProceeds" : "NetProceeds",
-        "Last Modified By" : "Last Modified By",
-        "Last Modified At" : "Last Modified At"
+        "NetProceeds" : "NetProceeds"
+        
     },
 
     "source_dest_holding_mapping" :
     
         {
             "Trx Num": "Trx Num",
+            "Fund" : "Fund",
             "Symbol": "Symbol",
-            "Symbol Description": "Symbol Description",
-            "Deal Type" : "Deal Type",
             "Curr" : "Curr",
             "Trade Date" : "Trade Date" ,
-            "Settle Date" : "Settle Date",
-            "Term" : "Term",
-            "Exec. Broker" : "Exec. Broker",
-            "Pct Assets" : "Pct Assets",
             "Quantity" : "Quantity" ,
             "Unit Cost" : "Unit Cost",
-            "Total Cost" : "Total Cost",
-            "Market Price" : "Market Price",
-            "Market Value" : "Market Value",
-            "Unrealized Gain/Loss" : "Unrealized Gain/Loss",
-            "Pct G/L" : "Pct G/L",
-            "Div/Int/Deal Accrual" : "Div/Int/Deal Accrual"
+            "Total Cost" : "Total Cost"
 
         },
     
    "source_dest_tran_mapping" : 
    
     {
-        "Status" : "Status",
         "Id" : "Id",
         "Symbol" : "Symbol",
-        "Deal" : "Deal",
         "Transaction Type" : "Transaction Type",
-        "Event Type" : "Event Type",
         "Quantity" : "Quantity",
         "Price" : "Price",
         "Trade Date" : "Trade Date" ,
-        "Settlement Date" : "Settlement Date",
         "Fund" : "Fund",
-        "Broker Account" : "Broker Account",
-        "Strategy" : "Strategy",
-        "Executing Broker" : "Executing Broker",
         "Commission" : "Commission",
         "Proceeds Currency" : "Proceeds Currency",
         "Proceeds FX Rate" : "Proceeds FX Rate",
-        "Interest" : "Interest",
-        "NetProceeds" : "NetProceeds",
-        "Last Modified By" : "Last Modified By",
-        "Last Modified At" : "Last Modified At"
+        "NetProceeds" : "NetProceeds"
     }
    
 }
